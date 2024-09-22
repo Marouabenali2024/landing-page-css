@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  /* border: 5px red solid; */
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  /* border: 5px greenyellow solid; */
+  width: 80%;
+  color: #86888b;
+  gap: 200px;
+  display: flex;
+}
+a {
+  color: #86888b;
+  all: unset;
+}
+.logo {
+  color: #86888b;
+  font-size: 15px;
+}
+button {
+  width: 100px;
+}
+.Hero {
+
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+  color: white;
+}
+h1 {
+  font-size: 400%;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 950px;
+}
+p {
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+}
+.card1 {
+  border: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 300px;
+}
+.card2 {
+  border: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card3 {
+  border: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card4 {
+  border: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h6 {
+  position: absolute;
+  left: 820px;
+  font-weight: 900;
+  font-size: large;
+  background-color: #212529;
+  color: white;
+}
